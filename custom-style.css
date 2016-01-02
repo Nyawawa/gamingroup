@@ -29,4 +29,11 @@
 #access ul ul :hover > a {
 	background: #444;
 	color: #fff;
+}#main .widget-area {
+    display:none;
+}
+
+#content {
+	margin: 0 20px 0 20px;
+
 }
