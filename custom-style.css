@@ -21,3 +21,12 @@
 	margin-right: -20px;
 	padding: 18px 20px;
 }
+
+#access li:hover > a{
+	background: #333;
+	color: #fff;
+}
+#access ul ul :hover > a {
+	background: #444;
+	color: #fff;
+}
