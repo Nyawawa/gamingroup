@@ -44,6 +44,9 @@
 	if ( is_singular() && get_option( 'thread_comments' ) )
 		wp_enqueue_script( 'comment-reply' );
 
+        
+    wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/custom-style.css' );
+        
 	/*
 	 * Always have wp_head() just before the closing </head>
 	 * tag of your theme, or you will break many plugins, which
@@ -96,7 +99,9 @@
 							$header_image_height = HEADER_IMAGE_HEIGHT;
 						}
 					?>
-						<img src="<?php header_image(); ?>" width="<?php echo esc_attr( $header_image_width ); ?>" height="<?php echo esc_attr( $header_image_height ); ?>" alt="" />
+                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+                            <img src="<?php header_image(); ?>" width="<?php echo esc_attr( $header_image_width ); ?>" height="<?php echo esc_attr( $header_image_height ); ?>" alt="" />
+                        </a>
 					<?php endif; ?>
 			</div><!-- #branding -->
 

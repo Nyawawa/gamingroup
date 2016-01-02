@@ -1,0 +1,23 @@
+#access {
+	background: #373c51;
+	display: block;
+	float: left;
+	margin: 0 auto;
+	width: 940px;
+}
+
+#site-title {
+    display: none;
+}
+
+#site-description {
+    display: none;
+}
+
+.post {
+    background: #f2f7fc;
+	border-top: 4px solid #373c51;
+    margin-left: -20px;
+	margin-right: -20px;
+	padding: 18px 20px;
+}
