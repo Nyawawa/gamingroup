@@ -1,5 +1,5 @@
 
-#tribe-events-bar {
+#tribe-events-bar, .tribe-events-page-title {
     display: none;
 }
 
@@ -65,4 +65,54 @@
 
 #tribe-events-footer {
     display: none;
+}
+
+
+#tribe-events-header {
+    display: none;
+}
+
+#content .tribe-events-cal-links {
+    display: none;
+}
+
+#content .tribe-events-single-event-title {
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.3em;
+    margin-bottom: 0px;
+}
+
+#content .tribe-events-schedule .tribe-event-date-start, #content .tribe-events-schedule .tribe-event-date-end {
+    font-size: 18px;
+    color: #777;
+}
+
+#content .tribe-events-back a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#content .tribe-events-back a:link,
+#content .tribe-events-back a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+#content .tribe-events-back a:active,
+#content .tribe-events-back a:hover {
+	color: #ff4b33;
+}
+
+#content .tribe-events-event-meta dt {
+    clear: none;
+    float: left;
+    margin: 0 10px;
+}
+
+#content .tribe-events-event-meta dd {
+    float: left;
+    margin: 0 20px 0 0;
 }
