@@ -48,11 +48,20 @@
 	margin-left: 10px;
 }
 
-#footer .right-side-info div{
+#footer #right-side-info div{
 	float: right;
 	height: 50px;
+}
+
+#footer #right-side-info #socialbuttons img, #footer #right-side-info #mediabutton-youtube img{
+	height: 20px;
+	width: 20px;
 	margin-right: 10px;
-	margin-left: 10px;
+}
+
+#footer #right-side-info #mediabutton-twitch img{
+	height: 20px;
+	margin-right: 10px;
 }
 
 /**#footer #colophon{

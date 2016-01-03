@@ -19,12 +19,27 @@
 					<img src="<?php site_icon_url(); ?>"></img>
 					<div class="site-info-title"><?php bloginfo( 'name' ); ?></div>
 				</a>
-				<div class="right-side-info">
+				<div id="right-side-info">
 					<div class="contact">
 						<a href="./kontakt" title="Kontakt">Kontakt</a>
 					</div>
-					<div class="socialbuttons">
-						Hunger
+					<div id="socialbuttons">
+						<a href="https://twitter.com/lol_fsmpi">
+							<img src="wp-content/themes/gg-ac/images/icon_twitter.png"></img>
+						</a>
+						<a href="https://www.facebook.com/rwthgg">
+							<img src="wp-content/themes/gg-ac/images/icon_facebook.png"></img>
+						</a>
+					</div>
+					<div id="mediabutton-youtube">
+						<a href="https://www.youtube.com/user/lolfsmpi">
+							<img src="wp-content/themes/gg-ac/images/icon_youtube.png"></img>
+						</a>
+					</div>
+					<div id="mediabutton-twitch">
+						<a href="http://www.twitch.tv/gaminggroupaachen">
+							<img src="wp-content/themes/gg-ac/images/logo_twitch.png"></img>
+						</a>
 					</div>
 				</div>
 			</div><!-- #site-info -->
