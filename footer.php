@@ -25,6 +25,7 @@
 
 			<div id="site-info">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+					<img src="<?php site_icon_url(); ?>"></img>
 					<?php bloginfo( 'name' ); ?>
 				</a>
 			</div><!-- #site-info -->
