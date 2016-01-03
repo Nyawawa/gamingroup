@@ -1,5 +1,4 @@
 <?php 
-
 get_header(); ?>
 
 		<div id="container">
@@ -14,11 +13,10 @@ get_header(); ?>
 			get_template_part( 'loop', 'page' );
             ?>
             
-            
-            
+            <h2 class="entry-title">Aktuelles zu <?= get_the_title() ?></h2>
             <?php
-            query_posts( 'tag=' . the_title() );
-            get_template_part( 'loop', 'category' );
+            query_posts( 'tag=' . get_the_title() );
+            get_template_part( 'loop', 'ggac_game' );
             wp_reset_query();
 			?>
 
@@ -26,3 +24,4 @@ get_header(); ?>
 		</div><!-- #container -->
 
 <?php get_footer(); ?>
+
