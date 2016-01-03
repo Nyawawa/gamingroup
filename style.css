@@ -192,7 +192,7 @@ div.menu,
 	float: left;
 	font-size: 14px;
 	font-weight: bold;
-	width: 700px;
+	width: 100%;
 }
 #site-generator {
 	float: right;

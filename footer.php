@@ -14,22 +14,20 @@
 
 	<div id="footer" role="contentinfo">
 		<div id="colophon">
-
-<?php
-	/*
-	 * A sidebar in the footer? Yep. You can can customize
-	 * your footer with four columns of widgets.
-	 */
-	get_sidebar( 'footer' );
-?>
-
 			<div id="site-info">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 					<img src="<?php site_icon_url(); ?>"></img>
-					<?php bloginfo( 'name' ); ?>
+					<div class="site-info-title"><?php bloginfo( 'name' ); ?></div>
 				</a>
+				<div class="right-side-info">
+					<div class="contact">
+						<a href="./kontakt" title="Kontakt">Kontakt</a>
+					</div>
+					<div class="socialbuttons">
+						Hunger
+					</div>
+				</div>
 			</div><!-- #site-info -->
-
 		</div><!-- #colophon -->
 	</div><!-- #footer -->
 

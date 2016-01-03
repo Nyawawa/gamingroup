@@ -37,8 +37,27 @@
 	margin: 0 20px 0 20px;
 
 }
-#site-info img{
-	width: 50;
-	height: 50;
+#footer #site-info img{
+	width: 50px;
+	height: 50px;
+	float: left;
 }
+
+#footer .site-info-title{
+	float: left;
+	margin-left: 10px;
+}
+
+#footer .right-side-info div{
+	float: right;
+	height: 50px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+/**#footer #colophon{
+	background-color: #373C51;
+}*/
+
+
 
