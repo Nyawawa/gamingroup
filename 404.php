@@ -28,6 +28,7 @@ get_header(); ?>
 		</div><!-- #content -->
 	</div><!-- #container -->
 	<script type="text/javascript">
+	blub
 		// focus on search field after it has loaded
 		document.getElementById('s') && document.getElementById('s').focus();
 	</script>
