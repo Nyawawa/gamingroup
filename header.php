@@ -45,9 +45,6 @@
 		wp_enqueue_script( 'comment-reply' );
 
         
-    wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/custom-style.css' );
-    wp_enqueue_style( 'events-custom-style', get_template_directory_uri() . '/events-custom-style.css' );
-        
 	/*
 	 * Always have wp_head() just before the closing </head>
 	 * tag of your theme, or you will break many plugins, which
