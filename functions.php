@@ -207,6 +207,15 @@ function twentyten_setup() {
 			'description' => __( 'Sunset', 'twentyten' )
 		)
 	) );
+	
+	register_post_type('ggac_game', array(
+		'labels' => array(
+			'name' => __('Games'),
+			'singular_name' => __('Game'),
+		),
+		'public' => true,
+		'has_archive' => true,
+	));
 }
 endif;
 
