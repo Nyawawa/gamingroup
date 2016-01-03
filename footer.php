@@ -17,7 +17,10 @@
 			<div id="site-info">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 					<img src="<?php site_icon_url(); ?>"></img>
-					<div class="site-info-title"><?php bloginfo( 'name' ); ?></div>
+					<div class="site-info-title">
+						Gaming Group <br> 
+						Aachen
+					</div>
 				</a>
 				<div id="right-side-info">
 					<div class="contact">
@@ -25,20 +28,20 @@
 					</div>
 					<div id="socialbuttons">
 						<a href="https://twitter.com/lol_fsmpi">
-							<img src="wp-content/themes/gg-ac/images/icon_twitter.png"></img>
+							<img src="<?= get_template_directory_uri() ?>/images/icon_twitter.png"></img>
 						</a>
 						<a href="https://www.facebook.com/rwthgg">
-							<img src="wp-content/themes/gg-ac/images/icon_facebook.png"></img>
+							<img src="<?= get_template_directory_uri() ?>/images/icon_facebook.png"></img>
 						</a>
 					</div>
 					<div id="mediabutton-youtube">
 						<a href="https://www.youtube.com/user/lolfsmpi">
-							<img src="wp-content/themes/gg-ac/images/icon_youtube.png"></img>
+							<img src="<?= get_template_directory_uri() ?>/images/icon_youtube.png"></img>
 						</a>
 					</div>
 					<div id="mediabutton-twitch">
 						<a href="http://www.twitch.tv/gaminggroupaachen">
-							<img src="wp-content/themes/gg-ac/images/logo_twitch.png"></img>
+							<img src="<?= get_template_directory_uri() ?>/images/logo_twitch.png"></img>
 						</a>
 					</div>
 				</div>
